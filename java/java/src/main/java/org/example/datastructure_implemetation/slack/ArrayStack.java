@@ -1,11 +1,12 @@
 package org.example.datastructure_implemetation.slack;
 
+import java.util.Stack;
+
 public class ArrayStack<T> {
     private Object[] stack;
 
     private int arraySize;
     private int top;
-
     public ArrayStack(int arraySize) {
         this.arraySize = arraySize;
         this.stack = new Object[arraySize];
