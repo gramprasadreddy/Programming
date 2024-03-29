@@ -25,6 +25,7 @@ class ValidAnagaram {
 
 
     public static void main(String args[]){
+
         ValidAnagaram s = new ValidAnagaram();
 
         System.out.println(new ValidAnagaram().isValidAnagram("anagram","nagaram"));
