@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class BinarySearch{
 
 
@@ -5,6 +6,8 @@ class BinarySearch{
 		int[] arr = {1,2,3,4,5,6,7,8,9};
 		System.out.println(binarySearch(arr,8));
 		System.out.println(binarySearchUsingRecursion(arr, 0, arr.length-1, 8));
+		Arrays.stream(arr).filter(x-> x == 8).findFirst().ifPresent(System.out::println);
+
 	}
 
 	public static int binarySearch(int[] arr,int item){
