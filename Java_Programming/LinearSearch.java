@@ -6,7 +6,7 @@ class LinearSearch{
 		System.out.println("index of item 7 is : (if -1 not 							found)"+linearSearch(arr,7));
 	}
 	public static int linearSearch(int[]arr, int n){
-		if(arr.length<0){
+		if(arr.length == 0){
 			return -1;
 		}
 		for(int i =0;i< arr.length;i++){
